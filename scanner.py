@@ -115,7 +115,7 @@ class clr:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse. ArgumentParser(
-        description=f' {clr.RED}Fast and iniscreet Port by PH{clr.RESET}'
+        description=f' {clr.RED}Fast and iniscreet Port by Pedrofig{clr.RESET}'
     )
     parser.add_argument('-t', '--target', dest='host', required=True,
                             help='Target IP or domain')
